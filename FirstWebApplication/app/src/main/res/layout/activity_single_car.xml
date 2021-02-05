@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleCarActivity">
+
+    <EditText
+        android:id="@+id/idOfCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Type Id of car here..." />
+
+    <TextView
+        android:id="@+id/carClassField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="180dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/findCarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Find car!" />
+
+    <TextView
+        android:id="@+id/carCategoryField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="220dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/carCharacteristicsField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="260dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/isSmokerField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="300dp"
+        android:text="TextView" />
+</RelativeLayout>
